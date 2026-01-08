@@ -31,3 +31,8 @@ B. Mobile Side
 ⛔ OTA resume after disconnect not validated  
 ⛔ Power loss mid-OTA behavior not tested  
 ⛔ Rollback validation after crash not verified  
+
+
+## Note
+In application later we need to do configuration of this ble_ota folder, because it is not get compiled stand alone it 
+requires entire esp-iot-solution-master to get compiled.
