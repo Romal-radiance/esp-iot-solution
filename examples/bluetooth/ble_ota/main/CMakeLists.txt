@@ -1,5 +1,5 @@
 idf_build_get_property(project_dir PROJECT_DIR)
-idf_component_register(SRCS "app_main.c"
+idf_component_register(SRCS
                        EMBED_TXTFILES ${project_dir}/rsa_key/private.pem)
 
 
